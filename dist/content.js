@@ -1,0 +1,1 @@
+document.addEventListener("keydown",(e=>{if(console.log("keydown",e.code),e.altKey&&e.shiftKey&&"KeyT"===e.code){const e=document.activeElement;!e||"INPUT"!==e.tagName&&"TEXTAREA"!==e.tagName||null===(null==e?void 0:e.value)||void 0===(null==e?void 0:e.value)||(e.value+="Auto-entered text")}}));

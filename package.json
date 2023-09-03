@@ -1,0 +1,19 @@
+{
+  "name": "text-on-hotkey",
+  "version": "1.0.0",
+  "description": "Firefox extension to enter text into the active form whenever a hotkey is pressed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webextension-polyfill-ts": "^0.26.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
